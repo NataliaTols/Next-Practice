@@ -1,0 +1,33 @@
+.note {
+    background-color: #f9f9f9;
+    /* Light grey background */
+    border-left: 5px solid #4f46e5;
+    /* Blue left border for emphasis */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.note-list-boxes {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    max-width: 300px;
+}
+
+.note-list-boxes li {
+    background-color: #eef;
+    /* Pale blue background for list items */
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    color: #4f46e5;
+}
+
+.note-list-boxes li:hover {
+    cursor: pointer;
+}
